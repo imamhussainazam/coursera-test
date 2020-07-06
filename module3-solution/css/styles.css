@@ -11,8 +11,9 @@ body {
 	border: 0;
 }
 
+
 .navbar-brand {
-	padding-top: 25px;
+	/*padding-top: 25px;*/
 	}
 
 	body > div {
@@ -39,6 +40,9 @@ h2 {
 	line-height: .75;
 }
 
+section {
+	padding: 20px;
+}
 
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
