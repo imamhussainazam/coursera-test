@@ -1,0 +1,82 @@
+body {
+	color: #fff;
+    font-size: 16px;
+    background-color: brown;
+
+}
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+	}
+
+	body > div {
+		background-color: green;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	body > h1 {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+h2 {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+.navbar-brand h1 {
+	font-family: serif;
+	color: white;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #222;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	top: -30px;
+}
+button {
+	background-color: white;
+}
+
+
+@media (max-width: 767px;) {
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;/*1 vw= 1% of viewport width*/
+	}
+
+
+}
