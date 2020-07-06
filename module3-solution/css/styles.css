@@ -16,7 +16,7 @@ body {
 	/*padding-top: 25px;*/
 	}
 
-	body > div {
+	body > section {
 		background-color: green;
 		width: 90%;
 		margin-left: auto;
@@ -40,7 +40,7 @@ h2 {
 	line-height: .75;
 }
 
-section {
+p {
 	padding: 20px;
 }
 
